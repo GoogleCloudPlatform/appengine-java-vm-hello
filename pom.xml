@@ -27,7 +27,6 @@
   <artifactId>hello</artifactId>
 
   <properties>
-    <appengine.app.version>chat</appengine.app.version>
     <appengine.target.version>1.8.9</appengine.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -79,7 +78,10 @@
       <plugin>
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
-        <version>${appengine.target.version}</version>
+        <version>${appengine.target.version}-maven3.0</version>
+        <configuration>
+          <server>preview.appengine.google.com</server>
+        </configuration>
       </plugin>
     </plugins>
   </build>
