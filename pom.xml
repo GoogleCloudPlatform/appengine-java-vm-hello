@@ -27,7 +27,7 @@
   <artifactId>hello</artifactId>
 
   <properties>
-    <appengine.target.version>1.8.9</appengine.target.version>
+    <appengine.target.version>1.9.6</appengine.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -78,7 +78,7 @@
       <plugin>
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
-        <version>${appengine.target.version}-maven3.0</version>
+        <version>${appengine.target.version}</version>
         <configuration>
           <server>preview.appengine.google.com</server>
         </configuration>
