@@ -3,8 +3,8 @@ Copyright (C) 2014 Google Inc.
 
 # Sample 'hello world' application for use with the App Engine Java VM Runtime.
 
-Requires [Apache Maven](http://maven.apache.org) 3.0 or greater, and
-JDK 7+ in order to run.  This application needs to be deployed to the
+Requires [Apache Maven](http://maven.apache.org) 3.1 or greater, and
+JDK 7 in order to run.  This application needs to be deployed to the
 [App Engine VM Runtime][1].
 
 Make sure that you are invited to the [VM Runtime Trusted Tester
