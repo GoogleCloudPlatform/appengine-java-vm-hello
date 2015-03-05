@@ -20,9 +20,6 @@
     <version>hellojava</version>
     <threadsafe>true</threadsafe>
     <vm>true</vm>
-    <vm-settings>
-        <setting name="machine_type" value="n1-standard-1"/>
-    </vm-settings>
     <manual-scaling>
         <instances>1</instances>
     </manual-scaling>
