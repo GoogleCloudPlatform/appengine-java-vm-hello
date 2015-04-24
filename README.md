@@ -12,7 +12,7 @@ To run the application, do the following:
 
 1. Change the value of the `application` element in your `appengine-web.xml` to the app
 id of your application.
-2. Run `mvn appengine:gcloud_app_run`
+2. Run `mvn gcloud:run`
 4. Visit http://localhost:8080
-5. To deploy, run `mvn appengine:gcloud_app_deploy`
+5. To deploy, run `mvn gcloud:deploy`
 6. Visit `http://your-app-id.appspot.com/`.
