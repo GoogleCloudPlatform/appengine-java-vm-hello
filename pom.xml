@@ -27,7 +27,7 @@
   <artifactId>hello</artifactId>
 
   <properties>
-    <appengine.target.version>1.9.15</appengine.target.version>
+    <appengine.target.version>1.9.19</appengine.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -78,8 +78,8 @@
 
       <plugin>
         <groupId>com.google.appengine</groupId>
-        <artifactId>appengine-maven-plugin</artifactId>
-        <version>1.9.15</version>
+        <artifactId>gcloud-maven-plugin</artifactId>
+        <version>0.9.57.v20150425</version>
         <configuration>
         </configuration>
       </plugin>

@@ -18,16 +18,16 @@
 <actions>
   <action>
     <actionName>CUSTOM-appengine:gcloud</actionName>
-    <displayName>appengine:gcloud_app_run</displayName>
+    <displayName>gcloud:run</displayName>
     <goals>
-      <goal>appengine:gcloud_app_run</goal>
+      <goal>gcloud:run</goal>
     </goals>
   </action>
   <action>
     <actionName>CUSTOM-appengine:gcloud</actionName>
-    <displayName>appengine:gcloud_app_deploy</displayName>
+    <displayName>gcloud:deploy</displayName>
     <goals>
-      <goal>appengine:gcloud_app_deploy</goal>
+      <goal>gcloud:deploy</goal>
     </goals>
   </action>
 </actions>
