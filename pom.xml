@@ -79,7 +79,7 @@
       <plugin>
         <groupId>com.google.appengine</groupId>
         <artifactId>gcloud-maven-plugin</artifactId>
-        <version>0.9.67.v20150705</version>
+        <version>0.9.68.v20150705</version>
         <configuration>
         </configuration>
       </plugin>
