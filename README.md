@@ -1,5 +1,5 @@
 
-&copy; 2014 Google Inc.
+Copyright &copy; 2014 Google Inc.
 
 ## Sample 'hello world' application for use with the App Engine Java Managed VMs.
 
