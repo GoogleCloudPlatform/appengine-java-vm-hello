@@ -28,10 +28,10 @@ public class HelloInfo {
   public static String getInfo() {
     String version = SystemProperty.applicationVersion.get();
     String majorVersion = version.substring(0, version.indexOf('.'));
-  	Environment env = ApiProxy.getCurrentEnvironment();
-    String hostname = "" +
-        env.getAttributes().get("com.google.appengine.runtime.default_version_hostname");
-  	String infostring = "version: " + majorVersion + " and hostname: " + hostname;
-  	return infostring;
+    Environment env = ApiProxy.getCurrentEnvironment();
+    String hostname =
+        "" + env.getAttributes().get("com.google.appengine.runtime.default_version_hostname");
+    String infostring = "version: " + majorVersion + " and hostname: " + hostname;
+    return infostring;
   }
 }
