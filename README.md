@@ -1,4 +1,10 @@
 
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+This project is no longer actively developed or maintained.
+
+For new work on this check out [getting-started-java](https://github.com/GoogleCloudPlatform/getting-started-java) and [Getting started with Java for App Engine flexible](https://cloud.google.com/java/getting-started/hello-world).
+
 Copyright (C) 2014 Google Inc.
 
 # Sample 'hello world' application for use with the App Engine Java Managed VMs.
